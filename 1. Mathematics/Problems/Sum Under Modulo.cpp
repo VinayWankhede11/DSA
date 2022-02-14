@@ -17,7 +17,7 @@ public:
         // code here
         long long M = 1000000007;
         return (a % M + b % M) % M;
-        //return ((a%M)*(b*M))%M;   MULTIPLICATION UNDER MODULO
+        //return ((a%M)*(b%M))%M;   MULTIPLICATION UNDER MODULO
     }
 };
 
